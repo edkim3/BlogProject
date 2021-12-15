@@ -48,7 +48,6 @@ namespace BlogProject.Controllers
         // GET: Blogs/Create
         public IActionResult Create()
         {
-            ViewData["BlogUserId"] = new SelectList(_context.Users, "Id", "Id");
             return View();
         }
 
