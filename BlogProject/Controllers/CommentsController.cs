@@ -47,12 +47,12 @@ namespace BlogProject.Controllers
         }
 
         // GET: Comments/Create
-        public IActionResult Create()
-        {
-            ViewData["ModeratorId"] = new SelectList(_context.Users, "Id", "Id");
-            ViewData["PostId"] = new SelectList(_context.Posts, "Id", "Abstract");
-            return View();
-        }
+        //public IActionResult Create()
+        //{
+        //    ViewData["ModeratorId"] = new SelectList(_context.Users, "Id", "Id");
+        //    ViewData["PostId"] = new SelectList(_context.Posts, "Id", "Abstract");
+        //    return View();
+        //}
 
         // POST: Comments/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
